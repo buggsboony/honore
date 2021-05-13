@@ -1,4 +1,7 @@
 #!/bin/bash
+#Hotkeys candidates :    CTRL+ALT+Return OR Meta+Return   => honore ok
+#Hotkeys candidates :    Meta+F7   => honore mushi
+
 configdir=~/.config/honore
 
 res="${configdir}/res" #resources folder
@@ -18,3 +21,5 @@ else
     echo "Muchimuchi ..."
     playsound "$muchi";
 fi
+
+
