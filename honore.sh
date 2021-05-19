@@ -16,10 +16,13 @@ checkbom="${res}/0${r}-checketbom.mp3"
 
 if [ "$1" == "ok" ] ; then
     echo "Check & Bom !"
-    playsound "$checkbom"
+    cvlc "$checkbom"
+
+#aplay /usr/lib/libreoffice/share/gallery/sounds/curve.wav;
+
 else
     echo "Muchimuchi ..."
-    playsound "$muchi";
+    cvlc "$muchi";
 fi
 
 
