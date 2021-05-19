@@ -8,6 +8,8 @@ configdir=~/.config/$what
 mkdir -p $configdir
 #peut être extension vide
 
+pip install playsound
+
 echo "$0"
 echo "$1"
 echo "$2"

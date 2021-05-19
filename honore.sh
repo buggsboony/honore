@@ -3,7 +3,7 @@
 #Hotkeys candidates :    Meta+F7   => honore mushi
 
 configdir=~/.config/honore
-
+commandsnd=playsound
 res="${configdir}/res" #resources folder
 muchi="${res}/01-muchimuchi.mp3"
 
@@ -16,13 +16,14 @@ checkbom="${res}/0${r}-checketbom.mp3"
 
 if [ "$1" == "ok" ] ; then
     echo "Check & Bom !"
-    cvlc "$checkbom"
-
+    $commandsnd "$checkbom"
+   #killall cvlc
 #aplay /usr/lib/libreoffice/share/gallery/sounds/curve.wav;
 
 else
     echo "Muchimuchi ..."
-    cvlc "$muchi";
+    $commandsnd "$muchi"
+ 
 fi
 
 
