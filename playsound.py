@@ -1,0 +1,3 @@
+#2021-05-20 08:46:25 - Circular ...
+from playsound import playsound
+playsound('./res/res/01-muchimuchi.mp3')

@@ -3,7 +3,7 @@
 #Hotkeys candidates :    Meta+F7   => honore mushi
 
 configdir=~/.config/honore
-commandsnd=playsound
+commandsnd=play
 res="${configdir}/res" #resources folder
 muchi="${res}/01-muchimuchi.mp3"
 

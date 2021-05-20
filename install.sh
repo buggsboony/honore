@@ -8,7 +8,9 @@ configdir=~/.config/$what
 mkdir -p $configdir
 #peut être extension vide
 
-pip install playsound
+#pip install playsound #Often can't get it to work
+echo "Installer sox package, play command"
+sudo pacman -S sox
 
 echo "$0"
 echo "$1"
